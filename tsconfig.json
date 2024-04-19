@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./src/gamePlay",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/gamePlay/*.ts"],
+    "exclude": ["node_modules", "src/public/style/style.css"]
+  }
+  

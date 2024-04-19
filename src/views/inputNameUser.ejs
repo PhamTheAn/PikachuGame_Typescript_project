@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <style>
+        body {
+            width: 100vh;
+            height: 100vh;
+            background-image: url('https://guikao.files.wordpress.com/2012/01/pokemon_wallpaper01_1680.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .main {
+            position: absolute;
+            top:30%;
+            left: 32%;
+            background-color: #fff;
+            width: 600px;
+            height: 138px;
+            border-radius: 5px;
+        }
+
+        .title {
+            background: -webkit-linear-gradient(#198754, #0a58ca);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: cursive;
+        }
+        .form-name {
+            font-family: cursive;
+        }
+    </style>
+    <div class="main">
+        <h1 class="title text-center mt-2 mb-2">Enter Your Name</h1>
+        <form action="/gameplay" method="post">
+            <div class="row g-3 align-items-center">
+                <div class="col ms-5 me-5">
+                    <input class="form-name form-control" type="text" id="playerName" name="playerName" pattern="[A-Za-z]+"
+                        title="Please enter only alphabetical characters" required>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

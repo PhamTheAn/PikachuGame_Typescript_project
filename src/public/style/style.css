@@ -1,0 +1,45 @@
+/* .main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card_pokemon {
+    position: relative;
+    height: 200px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card_pokemon:hover {
+    transform: scale(1.030);
+    transition: 0.3s ease-in-out;
+}
+
+.card_pokemon_after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('https://upload.wikimedia.org/wikipedia/vi/3/3b/Pokemon_Trading_Card_Game_cardback.jpg') ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+.card_box_img {
+    width: 100%;
+    height: 80%;
+} 
+
+.card_img {
+    width: 82%;
+    height: 82%;
+    object-fit: contain;
+    display: flex;
+    margin: auto;
+}
+
+.card_name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+} */
